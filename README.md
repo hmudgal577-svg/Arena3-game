@@ -18,6 +18,23 @@ A premium, zero-dependency Java desktop game suite featuring three classic games
 
 ---
 
+## 🛠️ Built With & Tech Stack
+
+This project is built from scratch without external frameworks, emphasizing high performance and lightweight distribution.
+
+- **Programming Language**: `Java (Java SE 11+)` - Pure object-oriented logic.
+- **GUI Framework**: `Java Swing` & `AWT (Abstract Window Toolkit)` - Custom double-buffered rendering using `Graphics2D` and dynamic frame containers (`CardLayout`).
+- **Sound System**: `Java Sound API (javax.sound.midi)` - Real-time MIDI synthesizer engine for retro-arcade sound generation.
+- **Algorithms & Logic**:
+  - **Pathfinding**: Breadth-First Search (BFS) for Snake AI.
+  - **Turn Logic Heuristics**: Dynamic safety and priority weighting for Ludo AI.
+  - **Adversarial Search**: Minimax Search with Alpha-Beta Pruning & Positional Piece-Square Tables for Chess AI.
+- **Build Tools**:
+  - `Windows Batch (build.bat)` - Automation script for compilation, manifest generation, and JAR packaging.
+  - `javac` & `jar` CLI tools - Native JDK compilation and packaging utilities.
+
+---
+
 ## 🐍 Snake Game
 
 Play against a path-finding AI or challenge a friend in local multiplayer.
