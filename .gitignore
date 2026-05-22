@@ -1,0 +1,26 @@
+# Compilation output
+/out/
+*.class
+
+# Executables & packages
+/Arena3.jar
+*.jar
+*.war
+*.ear
+
+# Logs and databases
+*.log
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# IDE and Editor directories
+.idea/
+.vscode/
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
